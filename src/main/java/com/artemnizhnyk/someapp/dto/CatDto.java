@@ -9,6 +9,7 @@ import lombok.*;
 @AllArgsConstructor
 public class CatDto {
 
+    private Long id;
     private String name;
     private Integer age;
     private Double weight;
